@@ -5,7 +5,7 @@ const doc = {
     title: 'Andrew Leetham\'s CSE341 Project 1 API',
     description: 'Contacts API'
   },
-  host: 'https://cse341-node-cs6s.onrender.com',
+  host: 'cse341-node-cs6s.onrender.com',
   schemes: ['https']
 };
 
