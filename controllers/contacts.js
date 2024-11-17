@@ -73,7 +73,7 @@ const deleteContact = async (req, res) => {
     .db('Project1')
     .collection('contacts')
     .deleteOne({ _id: contactId });
-  if (response.modifiedCount > 0) {
+  if (response.deletedCount > 0) {
     res.status(204).send();
   } else {
     res.status(500).json(response.error || 'An error occurred during contact deletion');
