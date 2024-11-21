@@ -5,6 +5,12 @@ GET http://localhost:3000/contacts
 ###one specific contact
 GET http://localhost:3000/contacts/673044cbf7a8a8375c30b62a
 
+###fail id validation
+GET http://localhost:3000/contacts/kaboom
+
+###fail contact validation
+POST http://localhost:3000/contacts
+
 //Published
 ###all contacts
 GET https://cse341-node-cs6s.onrender.com/contacts
